@@ -14,10 +14,13 @@ def divide_numbers(a, b):
         raise ValueError("Dzielenie przez zero jest niedozwolone.")
     return a /b
 
-if __name__ == "__main__":
+def main():
     num1 = 10
     num2 = 5
     print(f"Dodawanie: {add_numbers(num1, num2)}")
     print(f"Odejmowanie: {subtract_numbers(num1, num2)}")
     print(f"Mnozenie: {multiply_numbers(num1, num2)}")
     print(f"Dzielenie: {divide_numbers(num1, num2)}")
+
+if __name__ == "__main__":
+    main()
